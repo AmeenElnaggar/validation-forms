@@ -10,4 +10,4 @@ export interface StoreInterface {
 export const reducers: ActionReducerMap<StoreInterface> = {
   ui: fromUi.uiReducer,
   auth: fromAuth.authReducer,
-};
+}
